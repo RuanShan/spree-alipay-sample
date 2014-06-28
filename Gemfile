@@ -20,9 +20,14 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
+gem 'ruby-hmac' #http://ryanbigg.com/2009/07/no-such-file-to-load-hmac-sha1/
 gem 'spree', :github => "spree/spree", :branch => "2-0-stable"
+
+gem 'activemerchant', :require => 'active_merchant'
+#0.2.1 changed alipay service url
+gem 'activemerchant_patch_for_china', '0.2.0' #support alipay
 gem 'spree_alipay',   :github => "RuanShan/spree_alipay", :branch=>"2-0-stable"
 
 # To use ActiveModel has_secure_password

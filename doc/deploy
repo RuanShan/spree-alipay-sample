@@ -1,0 +1,11 @@
+1. install pg
+https://community.jboss.org/wiki/InstallPostgreSQLonFedora?_sscc=t
+yum install postgresql-server
+service postgresql initdb  
+service postgresql start
+
+2. install spree
+rails g spree:install
+
+3. install payment method alipay
+rails r "load 'db/sample/paymet_method.rb'"  
