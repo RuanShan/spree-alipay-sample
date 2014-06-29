@@ -21,6 +21,8 @@ rake spree_sample:load
   [href] https://devcenter.heroku.com/articles/heroku-postgresql
   heroku addons:add heroku-postgresql
   
-  
+others  
   handle secret_token
-  [herf]http://stackoverflow.com/questions/18557640/rails-env-variables 
+  [herf]http://stackoverflow.com/questions/18557640/rails-env-variables
+  more heroku account
+  heroku plugins:install git://github.com/ddollar/heroku-accounts.git 
