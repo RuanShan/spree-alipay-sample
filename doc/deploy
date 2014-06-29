@@ -7,8 +7,9 @@ service postgresql start
 2. install spree
 rails g spree:install
 
-3. install payment method alipay
-rails r "load 'db/sample/paymet_method.rb'"
+3. intall data
+rake db:seed
+rake spree_sample:load
 
 
 4. deploy on heroku
