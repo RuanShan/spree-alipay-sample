@@ -7,17 +7,17 @@ ruby '1.9.3'
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+#gem 'rails', '4.0.4'
 
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.2'
+#gem 'sass-rails', '~> 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+#gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+#gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -26,10 +26,10 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'jquery-rails' 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+#gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+#gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -39,7 +39,7 @@ end
 #gem 'jquery-rails'
 
 gem 'ruby-hmac' #http://ryanbigg.com/2009/07/no-such-file-to-load-hmac-sha1/
-gem 'spree', :github => "spree/spree", :branch => "2-2-stable"
+gem 'spree', '2.2.2' 
 
 gem 'activemerchant', :require => 'active_merchant'
 #0.2.1 changed alipay service url
