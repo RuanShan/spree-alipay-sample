@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '1.9.3'
 gem 'rails', '3.2.17'
 
 # Bundle edge Rails instead:
@@ -44,3 +44,4 @@ gem 'spree_alipay',   :github => "RuanShan/spree_alipay", :branch=>"2-0-stable"
 
 # To use debugger
 # gem 'debugger'
+gem 'rails_12factor', group: :production

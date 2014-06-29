@@ -8,4 +8,14 @@ service postgresql start
 rails g spree:install
 
 3. install payment method alipay
-rails r "load 'db/sample/paymet_method.rb'"  
+rails r "load 'db/sample/paymet_method.rb'"
+
+
+4. deploy on heroku
+  [herf] https://devcenter.heroku.com/articles/git#creating-a-heroku-remote
+  gem install heroku
+  heroku git:remote -a spree-alipay-sample    
+  git push heroku master 
+  
+  [href] https://devcenter.heroku.com/articles/heroku-postgresql
+  heroku addons:add heroku-postgresql 
