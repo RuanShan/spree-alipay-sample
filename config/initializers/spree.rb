@@ -8,9 +8,7 @@
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
-  config.site_name = "Spree Alipay Demo Site"
-  # config.cache_static_content =false #for debug
-  # config.freeze  
+  # config.site_name = "Spree Demo Site"
 end
 
 Spree.user_class = "Spree::LegacyUser"
