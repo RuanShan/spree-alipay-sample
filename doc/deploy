@@ -19,4 +19,8 @@ rake spree_sample:load
   git push heroku master 
   
   [href] https://devcenter.heroku.com/articles/heroku-postgresql
-  heroku addons:add heroku-postgresql 
+  heroku addons:add heroku-postgresql
+  
+  
+  handle secret_token
+  [herf]http://stackoverflow.com/questions/18557640/rails-env-variables 

@@ -2,8 +2,8 @@ Spree::PaymentMethod.destroy_all
 Spree::BillingIntegration::Alipay.create!(
   {
     :name => "Alipay",
-    :description => "Alipay (direct pay by user) for development.",
-    :environment => "development",
+    :description => "Alipay (direct pay by user).",
+    :environment => Rails.env,
     :active => true
   }
 )
