@@ -8,7 +8,7 @@
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
-  config.site_name = "Spree Alipay Demo Site"
+  config.site_name = "Spree Alipay 2-0-stable Demo Site"
   # config.cache_static_content =false #for debug
   # config.freeze  
 end
