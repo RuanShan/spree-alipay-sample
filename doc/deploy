@@ -20,7 +20,10 @@ rake spree_sample:load
   
   [href] https://devcenter.heroku.com/articles/heroku-postgresql
   heroku addons:add heroku-postgresql
-  
+
+useful command
+  heroku logs  --app=spree-alipay-sample-220
+  git push heroku 2-2-stable:master  
 others  
   handle secret_token
   [herf]http://stackoverflow.com/questions/18557640/rails-env-variables
